@@ -15,7 +15,7 @@
 
         default_layer {
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp JP_MINUS  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp JP_AT  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp JP_SEMI  &kp JP_COLON  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp JP_LBKT  &kp JP_RBKT  &kp N  &kp M  &kp COMMA  &kp DOT  &kp JP_SLASH  &kp JP_BSLH  &kp LALT  &kp LGUI  &lt 2 ENTER  &lt 3 LEFT_GUI  &kp BSPC  &kp ENTER  &kp JP_CARET  &kp LC(LS(LA(E)))  &tog 2  &kp ENTER  &kp LG(ENTER)  &lt 1 ENTER  &kp ENTER  &tog 2  &kp LG(C)  &kp LG(V)  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
+&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp ESC  &kp TAB  &kp Q  &kp P  &kp U  &kp Y  &kp T  &kp J  &kp D  &kp H  &kp G  &kp W  &kp LEFT_CONTROL  &kp LCTRL  &kp I  &kp O  &kp E  &kp A  &kp DOT  &kp K  &kp T  &kp N  &kp S  &kp R  &kp BACKSPACE  &kp LSHFT  &kp Z  &kp X  &kp C  &kp COMMA  &kp UP_ARROW  &kp JP_LBKT  &kp JP_RBKT  &kp M  &kp L  &kp F  &kp B  &kp V  &kp DEL  &kp LALT  &kp LGUI  &lt 2 ENTER  &lt 3 LEFT_GUI  &kp BSPC  &kp ENTER  &kp JP_CARET  &kp LC(LS(LA(E)))  &tog 2  &kp ENTER  &kp LG(ENTER)  &lt 1 ENTER  &kp ENTER  &tog 2  &kp LG(C)  &kp LG(V)  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
             sensor-bindings = <
@@ -32,7 +32,7 @@
 
         layer_2 {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &trans  &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  &trans  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &trans  &kp F12  &trans  &kp SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans  &trans  &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp EQUAL  &mkp MB4  &mkp MB5  &mkp MB1  &kp LG(D)  &mkp MB2  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &trans  &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  &trans  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &trans  &kp F12  &trans  &kp SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans  &trans  &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp EQUAL  &mkp MB4  &mkp MB5  &mkp MB1  &kp LG(D)  &mkp MB2  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_DOWN  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
