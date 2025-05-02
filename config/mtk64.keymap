@@ -63,7 +63,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mmv MOVE_UP  &kp PG_UP  &msc SCRL_UP  &msc SCRL_LEFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mmv MOVE_DOWN  &kp PAGE_DOWN  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(NUMBER_4)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mmv MOVE_UP  &kp PG_UP  &msc SCRL_UP  &msc SCRL_LEFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mmv MOVE_DOWN  &kp PAGE_DOWN  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans  &scroll_down  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(NUMBER_4)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
