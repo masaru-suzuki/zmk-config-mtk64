@@ -37,22 +37,6 @@
 };
 
 / {
-    macros {
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&msc SCRL_UP>;
-            label = "NEW_MACRO";
-        };
-
-        scroll_down: scroll_down {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&msc SCRL_DOWN>;
-            label = "SCROLL_DOWN";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
