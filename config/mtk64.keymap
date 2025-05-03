@@ -79,7 +79,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LG(Z))  &kp LS(LG(F))  &kp LS(LA(LC(LG(C))))  &kp LG(I)  &kp LG(PERIOD)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(NUMBER_4)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LG(Z))  &kp LS(LG(F))  &kp LS(LA(LC(LG(C))))  &kp LG(I)  &kp LG(PERIOD)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LC(LG(L)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(NUMBER_4)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
@@ -89,7 +89,7 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(F7)))  &kp LS(LA(LC(F9)))  &trans  &trans  &trans  &kp LS(LA(LC(F8)))  &trans  &trans  &trans  &trans  &kp LC(LS(LG(M)))  &trans  &trans  &kp LS(LA(F12))  &kp LA(UP_ARROW)  &kp LS(LA(LC(G)))  &trans  &trans  &trans  &trans  &kp LA(LS(F12))  &kp LS(LA(LC(LG(C))))  &trans  &trans  &trans  &kp LS(F4)  &kp LA(DOWN)  &kp F4  &kp LC(LA(C))  &kp LS(LA(LC(C)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LG(C)))  &kp LS(LA(LC(O)))  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(TAB)))  &kp LA(LC(TAB))  &kp LS(LA(LG(G)))  &kp LS(LA(LG(F11)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(F7)))  &kp LS(LA(LC(F9)))  &trans  &trans  &trans  &kp LS(LA(LC(F8)))  &trans  &trans  &trans  &trans  &kp LC(LS(LG(M)))  &trans  &trans  &kp LS(LA(F12))  &kp LA(UP_ARROW)  &kp LS(LA(LC(G)))  &trans  &trans  &trans  &trans  &kp LA(LS(F12))  &kp LS(LA(LC(LG(C))))  &trans  &trans  &trans  &kp LS(F4)  &kp LA(DOWN)  &kp F4  &kp LC(LA(C))  &kp LS(LA(LC(C)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LG(C)))  &kp LS(LA(LC(O)))  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(TAB)))  &kp LA(LC(TAB))  &kp LS(LA(LG(G)))  &kp LS(LA(LG(F11)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LC(LG(L)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
