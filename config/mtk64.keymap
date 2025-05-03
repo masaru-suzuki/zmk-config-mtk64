@@ -81,8 +81,11 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PERCENT  &kp NUMBER_7  &kp N8  &kp N9  &kp EQUAL  &trans  &trans  &kp SLASH  &kp STAR  &kp MINUS  &kp PLUS  &kp COLON  &kp TILDE  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp COMMA  &trans  &trans  &trans  &trans  &trans  &trans  &kp SEMI  &trans  &trans  &kp COLON  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_0  &trans  &trans
             >;
+            sensor-bindings = <
+                &scroll_up_down
+                &scroll_left_right
+            >;
         };
-
         layer_4 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mmv MOVE_UP  &kp PG_UP  &msc SCRL_UP  &msc SCRL_LEFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mmv MOVE_DOWN  &kp PAGE_DOWN  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans  &scroll_down  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(NUMBER_4)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -101,9 +104,4 @@
             >;
         };
     };
-    sensor-bindings = <
-        &scroll_up_down
-        &scroll_left_right
-    >;
-
 };
