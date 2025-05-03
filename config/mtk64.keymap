@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // スクロール量の設定
+
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 &mt {
@@ -14,17 +15,22 @@
 / {
     behaviors {
         // 垂直スクロール用のbehaviorの設定
+
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <20>; // スクロールのタップ時間
         };
+
         // 水平スクロール用のbehaviorの設定
+
         scroll_left_right: behavior_sensor_rotate_mouse_wheel_left_right {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
+
             tap-ms = <20>; // スクロールのタップ時間
         };
     };
@@ -64,6 +70,8 @@
             bindings = <
 &trans  &trans  &kp LG(KP_SUBTRACT)  &kp LG(N0)  &kp LG(KP_PLUS)  &trans  &trans  &trans  &trans  &trans  &trans  &studio_unlock  &trans  &kp PIPE  &kp AMPS  &trans  &kp LESS_THAN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp CARET  &kp GRAVE  &trans  &trans  &trans  &kp SLASH  &kp STAR  &kp QUESTION  &kp EXCL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &kp COLON  &kp SINGLE_QUOTE  &trans  &trans  &trans  &mt LEFT_SHIFT PERCENT  &kp AT  &kp UNDER  &kp DOLLAR  &kp LEFT_BRACE  &kp LA(LC(LG(G)))  &kp TILDE  &kp RIGHT_BRACE  &kp HASH  &kp SEMI  &kp DOUBLE_QUOTES  &kp BACKSLASH  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
         };
 
         layer_2 {
@@ -81,11 +89,13 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PERCENT  &kp NUMBER_7  &kp N8  &kp N9  &kp EQUAL  &trans  &trans  &kp SLASH  &kp STAR  &kp MINUS  &kp PLUS  &kp COLON  &kp TILDE  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp COMMA  &trans  &trans  &trans  &trans  &trans  &trans  &kp SEMI  &trans  &trans  &kp COLON  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_0  &trans  &trans
             >;
+
             sensor-bindings = <
                 &scroll_up_down
                 &scroll_left_right
             >;
         };
+
         layer_4 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mmv MOVE_UP  &kp PG_UP  &msc SCRL_UP  &msc SCRL_LEFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mmv MOVE_DOWN  &kp PAGE_DOWN  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans  &scroll_down  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(NUMBER_4)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
