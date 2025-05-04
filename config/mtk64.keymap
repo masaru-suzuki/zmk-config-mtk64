@@ -37,6 +37,21 @@
 };
 
 / {
+    macros {
+        splead_tab: splead_tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LC(LS(LA(F8)))>,
+                <&macro_wait_time 10>,
+                <&kp LC(LS(TAB))>,
+                <&macro_wait_time 10>,
+                <&kp LG(W)>;
+
+            label = "SPLEAD_TAB";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -89,7 +104,7 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(F7)))  &kp LS(LA(LC(F9)))  &trans  &trans  &trans  &kp LS(LA(LC(F8)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(F12))  &kp LA(UP_ARROW)  &kp LS(LA(LC(G)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(F4)  &kp LA(DOWN)  &kp F4  &kp LC(LA(C))  &kp LS(LA(LC(C)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LG(C)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(TAB)))  &kp LA(LC(TAB))  &kp LS(LA(LG(G)))  &kp LS(LA(LG(F11)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LC(LG(L)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(F7)))  &kp LS(LA(LC(F9)))  &trans  &trans  &trans  &kp LS(LA(LC(F8)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(F12))  &kp LA(UP_ARROW)  &kp LS(LA(LC(G)))  &trans  &splead_tab  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(F4)  &kp LA(DOWN)  &kp F4  &kp LC(LA(C))  &kp LS(LA(LC(C)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LG(C)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(TAB)))  &kp LA(LC(TAB))  &kp LS(LA(LG(G)))  &kp LS(LA(LG(F11)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LC(LG(L)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
