@@ -50,7 +50,7 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PIPE  &kp AMPS  &trans  &kp LESS_THAN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp CARET  &kp GRAVE  &trans  &trans  &trans  &kp SLASH  &kp STAR  &kp QUESTION  &kp EXCL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &kp COLON  &kp SINGLE_QUOTE  &trans  &trans  &trans  &mt LEFT_SHIFT PERCENT  &kp AT  &kp UNDER  &kp DOLLAR  &kp LEFT_BRACE  &kp LA(LC(LG(G)))  &kp TILDE  &kp RIGHT_BRACE  &kp HASH  &kp SEMI  &kp DOUBLE_QUOTES  &kp BACKSLASH  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(N0)  &kp LS(LA(LC(NUMBER_4)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PIPE  &kp AMPS  &trans  &kp LESS_THAN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp CARET  &kp GRAVE  &trans  &trans  &trans  &kp SLASH  &kp STAR  &kp QUESTION  &kp EXCL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &kp COLON  &kp SINGLE_QUOTE  &trans  &trans  &trans  &mt LEFT_SHIFT PERCENT  &kp AT  &kp UNDER  &kp DOLLAR  &kp LEFT_BRACE  &kp LA(LC(LG(G)))  &kp TILDE  &kp RIGHT_BRACE  &kp HASH  &kp SEMI  &kp DOUBLE_QUOTES  &kp BACKSLASH  &trans  &trans  &trans  &mo 4  &trans  &trans  &trans  &trans  &trans  &kp LG(N0)  &kp LS(LA(LC(NUMBER_4)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
@@ -79,7 +79,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LS(H))  &trans  &trans  &trans  &trans  &kp LS(LG(Z))  &kp LS(LG(F))  &kp LS(LA(LC(LG(C))))  &kp LG(I)  &kp LG(PERIOD)  &trans  &kp LS(LA(LG(G)))  &kp LS(LA(LG(F11)))  &trans  &trans  &trans  &trans  &kp LS(LA(F12))  &trans  &trans  &kp F2  &trans  &kp LS(LC(LG(L)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LG(LS(LA(F5)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LS(H))  &trans  &trans  &trans  &trans  &kp LS(LG(Z))  &kp LS(LG(F))  &kp LS(LA(LC(LG(C))))  &kp LG(I)  &kp LG(PERIOD)  &trans  &kp LS(LA(LG(G)))  &kp LS(LA(LG(F11)))  &trans  &trans  &trans  &trans  &kp LS(LA(F12))  &trans  &trans  &kp F2  &trans  &kp LS(LC(LG(L)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
